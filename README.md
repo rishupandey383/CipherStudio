@@ -2,6 +2,11 @@
 
 > **CipherStudio** is a next-generation **browser-based React IDE** that lets you **code, run, and preview React applications instantly** — all from your browser.  
 It’s designed to give developers the power of a full-fledged coding environment, without setup or installations.
+![CipherStudio Preview](<img width="1901" height="979" alt="Screenshot 2025-10-21 155054" src="https://github.com/user-attachments/assets/13e501a6-46cf-4ec1-9aeb-4f49a9a93366" />
+> <img width="1901" height="906" alt="Screenshot 2025-10-21 155133" src="https://github.com/user-attachments/assets/1e79fd1a-242c-4007-9666-ff8dd5366a19" />
+<img width="1901" height="883" alt="Screenshot 2025-10-21 155155" src="https://github.com/user-attachments/assets/7ad002b6-e71a-46d7-a2d9-593109bc4bb1" />
+
+)
 
 ---
 
