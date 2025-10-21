@@ -81,3 +81,55 @@ npm install mongodb mongoose   # (Optional if using MongoDB)
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+
+
+
+
+
+
+
+
+
+CipherStudio/
+├── client/                     # React Frontend
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   └── index.html
+│   ├── src/
+│   │   ├── assets/            # Images, logos, icons
+│   │   ├── components/        # Reusable UI components
+│   │   │   ├── Editor.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   └── Preview.tsx
+│   │   ├── pages/             # Main pages
+│   │   │   ├── Landing.tsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── OTP.tsx
+│   │   │   └── Projects.tsx
+│   │   ├── context/           # State management
+│   │   ├── utils/             # Helper functions
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── server/                     # Node.js Backend
+│   ├── config/
+│   │   └── db.js              # MongoDB or Firebase config
+│   ├── routes/
+│   │   └── authRoutes.js      # Login, OTP, Verify
+│   ├── controllers/
+│   │   └── authController.js
+│   ├── models/
+│   │   └── User.js
+│   ├── utils/
+│   │   ├── generateOTP.js
+│   │   └── sendEmail.js
+│   ├── .env.example
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
