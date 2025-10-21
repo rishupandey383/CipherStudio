@@ -1,67 +1,76 @@
 # ⚡ CipherStudio
 
-> **CipherStudio** is an advanced **browser-based React IDE** built for developers who want to **create, test, and visualize React projects instantly** — without any setup. It’s designed to be fast, intuitive, and beautiful, giving you a real development experience right in your browser.
+> **CipherStudio** is a next-generation **browser-based React IDE** that lets you **code, run, and preview React applications instantly** — all from your browser.  
+It’s designed to give developers the power of a full-fledged coding environment, without setup or installations.
 
 ---
 
 ## 🧠 What is CipherStudio?
 
-CipherStudio is not just another code editor — it’s a **React development playground** that lets you:
-- Write and run React code instantly
-- Preview your app live as you type
-- Experiment with UI ideas or test components quickly
-- Save and manage your projects effortlessly
+CipherStudio redefines how you build with React.  
+It offers a **real-time coding environment**, **live preview**, and **secure login system** — everything you need to turn your ideas into running code instantly.
 
-Built for developers, by developers — CipherStudio reimagines how you start building with React.
+Built for developers, learners, and UI creators who value **speed**, **simplicity**, and **aesthetics**.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-### 💻 Developer-Centric Editor
-- Code React components in real-time with syntax highlighting and auto-formatting.
-- TypeScript and JSX support for better developer experience.
+### 💻 Real-Time React Editor
+- Write JSX or TypeScript instantly.
+- Syntax highlighting and live error detection.
+- Auto-formatting and code beautification.
 
-### ⚡ Instant Live Preview
-- Real-time rendering of your React code — no reloads, no waiting.
-- Preview updates as you type for faster feedback.
+### ⚡ Live Preview Engine
+- See instant output as you type.
+- Real-time rendering without refreshing.
+- Perfect for testing UI components and prototypes.
 
-### 🎨 Beautiful, Minimal Interface
-- Clean, distraction-free workspace built with TailwindCSS.
-- Framer Motion animations for a smooth and modern feel.
+### ☁️ Secure Email Authentication (with OTP)
+- Users can log in using their email.
+- A unique 6-digit OTP is sent to their registered email.
+- OTP expires after 5 minutes for better security.
+- Verified users are redirected to their **Projects Dashboard**.
 
-### ☁️ Project Management
-- Create, rename, and delete projects seamlessly.
-- Auto-save and local persistence to prevent code loss.
+### 🧩 Project Management
+- Create, save, and delete projects.
+- Auto-save and local storage for reliability.
+- Future-ready: Cloud sync support (planned).
 
-### 🔐 Secure Authentication (Planned)
-- Email-based OTP login with JWT-based sessions.
-- Protected routes for user dashboards and project pages.
-
-### 🧩 Component Playground
-- Import UI libraries or experiment with your custom components easily.
-- Great for testing reusable components before production.
+### 🎨 Elegant UI & Animations
+- Minimal, distraction-free UI with TailwindCSS.
+- Smooth animations powered by Framer Motion.
+- Responsive design for all screen sizes.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technologies Used |
-|-------|-------------------|
-| **Frontend** | React, TypeScript, TailwindCSS, Framer Motion |
-| **Backend (Auth + API)** | Node.js / Express / Firebase (optional) |
-| **Email Service** | Nodemailer / SendGrid / Gmail SMTP |
-| **Storage** | LocalStorage / Firebase Firestore |
-| **Deployment** | Vercel / Netlify |
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React (with TypeScript + Vite) |
+| **Styling** | TailwindCSS, Framer Motion |
+| **Backend** | Node.js, Express.js |
+| **Authentication** | Nodemailer (Email OTP) / Firebase Auth |
+| **Database (optional)** | MongoDB / Firebase Firestore |
+| **Session Management** | JWT (JSON Web Token) |
+| **Deployment** | Vercel / Netlify (Frontend), Render / Railway (Backend) |
 
 ---
 
-## 🚀 Getting Started
+## 📦 Dependencies
 
-### 1️⃣ Clone the Repository
+### Frontend
+
+npm install react react-dom typescript vite
+npm install tailwindcss framer-motion axios react-router-dom
+
+### Backend
 ```bash
-git clone https://github.com/<your-username>/CipherStudio.git
-cd CipherStudio
+npm install express nodemailer dotenv cors body-parser
+npm install jsonwebtoken bcryptjs
+npm install mongodb mongoose   # (Optional if using MongoDB)
+
 # Run Locally
 
 **Prerequisites:**  Node.js
