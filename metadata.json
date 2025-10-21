@@ -1,0 +1,5 @@
+{
+  "name": "CipherStudio",
+  "description": "A browser-based React IDE to create, manage, and preview React projects live. All your projects are saved locally in your browser.",
+  "requestFramePermissions": []
+}
